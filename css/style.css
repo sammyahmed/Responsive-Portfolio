@@ -1,0 +1,185 @@
+/*--header stlying--*/
+header {
+    	position:relative;
+    	display:block;
+    	max-width:100%;
+   	 	height:100%;
+    	margin:0 auto;
+    	padding:1rem 5rem;
+    	background:#ffffff;
+    	color:white;
+    	border-bottom: 2px solid #a8a4ad;
+}
+/*--Logo styling--*/
+header h1 {
+    line-height: 45px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2rem;
+    padding: 20px;
+    background-color: #4aaaa5;
+    margin-left: 20px;
+    display:inline;
+}
+/*--Nav bar stying--*/
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 25%;
+    list-style: none;
+    float:right;
+    display:inline;
+}
+nav  li {
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+    color: #777777;
+    padding:0 1rem;
+}
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+nav > li > a:hover,
+nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+/*--page body dimensions--*/
+section {
+	width: 960px;
+	height: 500px;
+}
+/*-- page underline--*/
+hr {
+	color: #dddddd;
+}
+/*--contact form styling--*/
+label {
+	font-size: 20px
+}
+/*--contact form boxes--*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+/*--contact submit button--*/
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    height: 42px;
+    width: 117px;
+    border: none;
+    cursor: pointer;
+}
+/*--mouse hover  --*/
+input[type=submit]:hover {
+    background-color: green;
+}
+/*-- contact container styling --*/
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+/*--main content header--*/
+.headingtitle {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 30px;	
+}
+/*--contact main div on the left--*/
+#contactcontent {
+	float:left;
+	padding: 25px;
+	width: 530px;
+	height: 560px;
+	color: #777777;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-color: #dddddd
+}
+/*--portfolio div on the left--*/
+#portfoliocontent {
+	float:left;
+	padding: 25px;
+	width: 530px;
+	height: 860px;
+	color: #777777;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-color: #dddddd
+}
+/*--portfolio div photos--*/
+div.gallery {
+    margin: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 40%;
+}
+/*--photo hover action--*/
+div.gallery:hover {
+    border: 1px solid #777;
+}
+/*--portfolio photos dimensions--*/
+div.gallery img {
+    width: 100%;
+    height: 140px;
+}
+/*--photo stext styling--*/
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    color: white;
+    background-color: #4aaaa5;
+}
+/*--main content div on the left--*/
+#maincontent {
+	float:left;
+	padding: 25px;
+	width: 530px;
+	height: 330px;
+	color: #777777;
+	margin-top: 20px;
+	margin-left: 100px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-color: #dddddd
+}
+p {
+	word-spacing: 3px;
+	padding-left: 5px
+}
+/*--side bar div--*/
+#sidebar {
+	width: 185px;
+	height: 130px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 25px;
+	color: #4aaaa5;	
+	margin-top: 20px;
+	text-align: center;
+	float: right;
+}
+footer {
+	background-color: #666666;
+	max-width:100%;
+	padding: 20px;
+	border-top: 10px solid #4aaaa5;
+	clear: both;
+	text-align: center
+}

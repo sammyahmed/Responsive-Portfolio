@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Contact Me</title>
+	</head>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--Main web page background image-->
+<body background="images/background1.png">
+<!--Header, logo, & Nav bar-->
+<header>
+    <h1>Sammy Ahmed</h1>
+        <nav>
+            <ul>
+                <a href="index.html"><li>About</li></a>
+                <a href="portfolio.html"><li>Portfolio</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+</header>
+<!--Actual Body, even though the header & nav bar are technically in the body-->
+<section>
+<!--Contact Form Div on left side of the page-->
+    <div id="contactcontent">
+
+            <h1 class="headingtitle">Contact</h1>
+                <hr>
+        <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <br>
+    <input type="text" id="fname" name="firstname" placeholder="John Smith" style="width:100%">
+    <br>
+    <label for="lname">Email</label>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com" style="width:100%">
+    <br>
+    <label for="subject">Message</label>
+    <br>
+    <textarea id="subject" name="subject" placeholder="Tell me a joke..." style="height:200px; width: 100%"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+               
+    </div>
+<!--Sidebar-->
+        <aside id="sidebar">
+            <h2> Connect with Me </h2>
+                <hr>
+            <img src="images/git.png" alt="Github" style="float: left; width: 33%; height: 51px; margin-top: 15px">
+            <img src="images/stack.png" alt="Stack Overflow" style="float: right; width: 33%; height: 48px; margin-top: 15px">
+            <img src="images/linked.png" alt="Linked In" style="float: right;width: 33%; height: 51px; margin-top: 15px">
+        </aside>
+
+</section>
+<!--Footer-->
+    <footer>
+        &copy; Copyright 2017 Sammy Ahmed
+    </footer>
+  </body>
+</html>
