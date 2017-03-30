@@ -3,7 +3,7 @@
 
 	<head>
   		<meta charset="UTF-8">
-  		<title>About Me</title>
+  		<title>Contact Me</title>
 	</head>
 
 <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -11,51 +11,41 @@
 <!--Main web page background image-->
 <body background="images/background1.png">
 <!--Header, logo, & Nav bar-->
-<header>
-    <h1>Sammy Ahmed</h1>
-        <nav>
-            <ul>
-                <a href="index.html"><li>About</li></a>
-                <a href="portfolio.html"><li>Portfolio</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-            </ul>
-        </nav>
-</header>
-<!--Actual Body, even though the header & nav bar are technically in the body-->
-<section>
-<!--Main Content Div on left side of the page-->
-	<div id="maincontent">
-		<h1 class="headingtitle">About Me</h1>
-		<hr>
-		<!--Profile Self Portrait-->
-		<img src="images/sammy1.jpg" style="float: left; height: 100px; width: 100px; padding-right: 5px">
-		<!--About Me Content-->
-		<p> Well hello there... thanks for stopping by, please come in and make yourself at home. As you can see my name is Sammy Ahmed and I am a future web developer. You may have seen me on America's # 1 Dad in OC, California. Voted for by my wife and 2 toddlers of course.
-		</p>
-		<p> On a more serious note. I am a freelance online marketer by night and an Operations Manager for a local non profit by day. I'm getting into web development because I've been sitting on a few entreprenuerial ideas for far too long. I figured it's about time to learn the skills to not only build my brain child, but more importantly have a better idea about what is going on with a future teams I may hire for my projects. Thanks for stopping by and be dure to drop a line before you leave.
-		</p>
-		<p>
-		Thanks,<br>
-		Sammy	
-		</p>				
-	</div>
+<header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Sammy Ahmed</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<!--Sidebar-->
-	<aside id="sidebar">
-		<h2> Connect with Me </h2>
-		<hr>
-
-		<img src="images/git.png" alt="Github" style="float: left; width: 33%; height: 51px; margin-top: 15px">
-
-		<img src="images/stack.png" alt="Stack Overflow" style="float: right; width: 33%; height: 48px; margin-top: 15px">
-
-		<img src="images/linked.png" alt="Linked In" style="float: right;width: 33%; height: 51px; margin-top: 15px">	
-	</aside>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+      <img src="images/sammy1.jpg" class="auth-image" alt="Your Name">
+      <p>Well hello there... thanks for stopping by, please come in and make yourself at home. As you can see my name is Sammy Ahmed and I am a future web developer. You may have seen me on America's # 1 Dad in OC, California. Voted for by my wife and 2 toddlers of course.</p>
+      <p>On a more serious note. I am a freelance online marketer by night and an Operations Manager for a local non profit by day. I'm getting into web development because I've been sitting on a few entreprenuerial ideas for far too long. I figured it's about time to learn the skills to not only build my brain child, but more importantly have a better idea about what is going on with a future teams I may hire for my projects. Thanks for stopping by and be dure to drop a line before you leave.</p>
+    </section>
+    <!--Sidebar-->
+        <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="images/git.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="images/linked.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="images/stack.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
 
 </section>
 <!--Footer-->
     <footer>
-        &copy; Copyright 2017 Sammy Ahmed
-    </footer>
-  </body>
+    <div class="container">
+      Copyright &copy; 2017 Sammy Ahmed
+    </div>
+  </footer>
+</body>
 </html>

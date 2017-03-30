@@ -11,62 +11,61 @@
 
 <body background="images/background1.png">
 
-<header>
-    <h1>Sammy Ahmed</h1>
-        <nav>
-            <ul>
-                <a href="index.html"><li>About</li></a>
-                <a href="portfolio.html"><li>Portfolio</li></a>
-                <a href="contact.html"><li>Contact</li></a>
-            </ul>
-        </nav>
-</header>
+<header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Sammy Ahmed</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
 <section>
 
-  <div id="portfoliocontent">
-
-      <h1 class="headingtitle">Portfolio</h1>
-      <hr>
-
-      <div class="gallery">
-      <img src="images/pic1.jpg" alt="Trolltunga Norway" width="265px" height="140px"></a>
-      <div class="desc"> Africa </div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+      <div class="work">
+        <img src="images/pic1.jpg" alt="Africa" width="265px" height="140px"></a>
+        <h3>Africa</h3>
       </div>
-
-      <div class="gallery">
-      <img src="images/pic2.jpg" alt="Trolltunga Norway" width="265px" height="140px"></a>
-      <div class="desc">7 Seas</div>
+      <div class="work">
+        <img src="images/pic2.jpg" alt="7 Seas" width="265px" height="140px"></a>
+        <h3>7 Seas</h3>
       </div>
-
-      <div class="gallery">
-      <img src="images/pic3.jpg" alt="Trolltunga Norway" width="45%" height="140px"></a>
-      <div class="desc">Dreams</div>
+      <div class="work">
+        <img src="images/pic3.jpg" alt="Dreams" width="45%" height="140px"></a>
+        <h3>Dreams</h3>
       </div>
-
-      <div class="gallery">
-      <img src="images/pic4.jpg" alt="Trolltunga Norway" width="45%" height="140px"></a>
-      <div class="desc">Inspiration</div>
+      <div class="work">
+        <img src="images/pic4.jpg" alt="Inspiration" width="45%" height="140px"></a>
+        <h3>Inspiration</h3>
       </div>
+      <div class="work">
+        <img src="images/pic5.jpg" alt="Safari" width="45%" height="140px"></a>
+        <h3>Safari</h3>
+      </div>
+    </section>
 
-      <div class="gallery">
-      <img src="images/pic5.jpg" alt="Trolltunga Norway" width="45%" height="140px"></a>
-      <div class="desc">Safari</div>
-      </div>  
+        <!--Sidebar-->
+        <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="images/git.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="images/linked.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="images/stack.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
   </div>
-
-        <aside id="sidebar">
-            <h2> Connect with Me </h2>
-                <hr>
-            <img src="images/git.png" alt="Github" style="float: left; width: 33%; height: 51px; margin-top: 15px">
-            <img src="images/stack.png" alt="Stack Overflow" style="float: right; width: 33%; height: 48px; margin-top: 15px">
-            <img src="images/linked.png" alt="Linked In" style="float: right;width: 33%; height: 51px; margin-top: 15px">
-        </aside>
 
 </section>
 <!--Footer-->
     <footer>
-        &copy; Copyright 2017 Sammy Ahmed
-    </footer>
-  </body>
+    <div class="container">
+      Copyright &copy; 2017 Sammy Ahmed
+    </div>
+  </footer>
+</body>
 </html>
